@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Question Kids</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  
+    <section class="bienvenida" id="bienvenida">
+      <h1>¡Welcome!</h1>
+      <p>Let's go!</p>
+      <div class="usuario">
+        <input type="text" value="" id="usuario" name="usuario" placeholder="What's your name?"/>
+       </div>
+      <button id="continuar">Continue</button>
+    </section>
+    
+    <section class="seleccion esconder" id="saludo">
+       <h3 id="saludoo"></h3> 
+       <p>What do you want to learn?</p>
+       <button id="animals">Animals</button>
+       <button id="colors">Colors</button>
+    </section>
+    
+    <section class="animals esconder" id="questione">
+
+      <div class="question">
+        <figure>
+          <img src="./img/dog.jpeg" alt="It's a dog">
+          <figcaption>What animal is?</figcaption>
+        </figure>
+        <label for="lion" id="question-1-lion" class="">
+         <input type="radio" id="lion" name="questionone" value="lion">Lion
+        </label>
+        <label for="dog" id="question-1-dog" class="">
+         <input type="radio" id="dog" name="questionone" value="dog">Dog
+        </label>
+        <label for="elefant"id="question-1-elefant" class="">
+         <input type="radio" id="elefant" name="questionone" value="elefant">Elefant
+        </label>
+        <label for="giraffe" id="question-1-giraffe" class="">
+         <input type="radio" id="giraffe" name="questionone" value="giraffe">Giraffe
+        </label>      
+      </div>
+
+      <div class="question">
+        <figure>
+          <img src="./img/giraffe.jpeg" alt="It's a giraffe">
+          <figcaption>What animal is?</figcaption>
+        </figure>
+        <label for="lion" id="question-2-lion" class="">
+         <input type="radio" id="lion" name="questiontwo" value="lion">Lion
+        </label>
+        <label for="dog"id="question-2-dog" class="">
+         <input type="radio" id="dog" name="questiontwo" value="dog">Dog
+        </label>
+        <label for="elefant"id="question-2-elefant" class="">
+         <input type="radio" id="elefant" name="questiontwo" value="elefant">Elefant
+        </label>
+        <label for="giraffe" id="question-2-giraffe" class="">
+         <input type="radio" id="giraffe" name="questiontwo" value="giraffe">Giraffe
+        </label>
+      </div>
+
+      <div class="question">
+        <figure>
+          <img src="./img/lion.jpeg" alt="It's a lion">
+          <figcaption>What animal is?</figcaption>
+        </figure>
+        <label for="lion"id="question-3-lion" class="">
+          <input type="radio" id="lion" name="questionthree" value="lion">Lion
+        </label>
+        <label for="dog"id="question-3-dog" class="">
+          <input type="radio" id="dog" name="questionthree" value="dog">Dog
+        </label>
+        <label for="elefant"id="question-3-elefant" class="">
+          <input type="radio" id="elefant" name="questionthree" value="elefant">Elefant
+        </label>
+        <label for="giraffe"id="question-3-giraffe" class="">
+          <input type="radio" id="giraffe" name="questionthree" value="giraffe">Giraffe
+        </label>
+      </div>
+
+      <button class="resultadoAnimals" id="resultadoAnimals">Results</button>
+      <button class="seccionAnimals" id="seccionAnimals">Start</button>
+    </section>
+    
+
+    <section class="colors esconder" id="questioncolor">
+
+      <div class="question">
+        <figure>
+          <img src="./img/cars.jpeg" alt="It's a car">
+          <figcaption>What color is?</figcaption>
+        </figure>
+        <label for="black" id="question-1-black">
+          <input type="radio" id="black" name="questionfour" value="black">Black
+        </label>
+        <label for="yellow" id="question-1-yellow">
+          <input type="radio" id="yellow" name="questionfour" value="yellow">Yellow
+        </label>
+         <label for="blue" id="question-1-blue">
+          <input type="radio" id="blue"name="questionfour" value="blue">Blue
+        </label>
+        <label for="green" id="question-1-green">
+          <input type="radio" id="green" name="questionfour"value="green">Green
+        </label> 
+      </div>
+
+       <div class="question">
+         <figure>
+            <img src="./img/comegalletas.png" alt="It's a comegalletas">
+            <figcaption>What color is?</figcaption>
+         </figure>
+         <label for="black" id="question-2-black">
+           <input type="radio" id="black" name="questionfive" value="black">Black
+         </label>
+         <label for="yellow" id="question-2-yellow">
+            <input type="radio" id="yellow" name="questionfive" value="yellow">Yellow
+         </label>
+         <label for="blue" id="question-2-blue">
+            <input type="radio" id="blue" name="questionfive" value="blue">Blue
+         </label>
+         <label for="green" id="question-2-green">
+            <input type="radio" id="green" name="questionfive" value="green">Green
+         </label>
+      </div>
+
+      <div class="question">
+        <figure>
+          <img src="./img/sun.png" alt="It is sun">
+          <figcaption>What color is?</figcaption>
+        </figure>
+        <label for="black" id="question-3-black">
+          <input type="radio" id="black" name="questionsext" value="black">Black
+        </label>
+        <label for="yellow" id="question-3-yellow">
+          <input type="radio" id="yellow" name="questionsext" value="yellow">Yellow
+        </label>
+        <label for="blue" id="question-3-blue">
+          <input type="radio" id="blue" name="questionsext" value="blue">Blue
+        </label>
+        <label for="green" id="question-3-green">
+          <input type="radio" id="green" name="questionsext" value="green">Green
+        </label>
+      </div>
+      
+        <button class="resultadoColors" id="resultadoColors">Results</button>
+        <button class="seccionColors" id="seccionColors">Start</button>
+     </section> 
+     <script src="script.js"></script>
+  </body>
+</html>

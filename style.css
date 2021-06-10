@@ -1,0 +1,122 @@
+/*pagina uno*/
+.bienvenida, .seleccion {
+  width: 500px;
+  margin: 200px auto;
+  min-height: 200px;
+  padding: 10px;
+  border: 1px solid #DC8420;
+  text-align: center;
+  background: #DC8420;
+  border-radius: 30px;
+  color: #fff
+}
+.bienvenida h1 {
+  font-size: 50px;
+}
+.bienvenida p {
+  font-size: 30px;
+}
+.usuario {
+  width: 280px;
+  height: 35px;
+  border-radius:30px;
+  margin: 10px auto;
+  background:#fff;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.usuario input {
+  width: 260px;
+  height: 20px;
+  margin: 0 auto;
+  border: none;
+  outline:none; 
+}
+#continuar {
+  width: 90px;
+  height: 30px;
+  background: #F3BF83;
+  border: 2px #C87C26;
+  border-radius: 30px;
+  color:#615F5C;
+  font-size: 15px;
+}
+
+.esconder {
+  display: none;
+}
+/*pagina 2*/
+
+.seleccion h3 {
+ font-size: 30px;
+}
+.seleccion p {
+font-size: 30px;
+}
+.seleccion button {
+  width: 120px;
+  height: 30px;
+  font-size: 20px;
+  margin:10px ;
+ }
+ #animals, #colors {
+  background: #F3BF83;
+  border: 2px #C87C26;
+  border-radius: 30px;
+  color: #615F5C;
+  font-size: 15px;
+ } 
+ /*pagina question*/
+.question {
+  text-align: center;
+}
+ .question img {
+   display: block;
+   margin: 20px auto; 
+ }
+ .question figcaption{
+  
+   font-size: 30px; 
+ }
+ .question label{
+   margin:20px;
+ }
+ 
+ .resultadoAnimals, .resultadoColors {
+   width: 100px;
+   height: 30px;
+   position:absolute;
+   right:30%;
+   margin:30px auto;
+   background: #F3BF83;
+   border: 2px #C87C26;
+   border-radius: 30px;
+   color: #615F5C;
+   font-size: 15px;
+ }
+ .seccionAnimals, .seccionColors {
+   width: 100px;
+   height: 30px;
+   position:absolute;
+   right:60%;
+   margin:30px auto;
+   background: #F3BF83;
+   border: 2px #C87C26;
+   border-radius: 30px;
+   color: #615F5C;
+   font-size: 15px;
+   
+ }
+ /*Respuestas*/
+
+ .correcta {
+   background: #3A9044;
+   color: #fff;
+
+ }
+ .incorrecta {
+   background: #CD3A20;
+   color: #fff;
+
+ }
